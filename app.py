@@ -55,7 +55,7 @@ def generate_summary():
         # Display summary
         output_box.delete("1.0", tk.END)
         output_box.insert(tk.END, summary)
-        status_label.config(text="Done ✅")
+        status_label.config(text="Done ")
 
     except Exception as e:
         messagebox.showerror("Error", str(e))
